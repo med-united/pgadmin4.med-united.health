@@ -84,9 +84,9 @@ spec:
      name: pgadmin-data
    spec:
      accessModes: [ "ReadWriteOnce" ]
-     storageClassName: pgadmin4-gp2
      resources:
        requests:
+         storageClassName: pgadmin4-gp2
          storage: 3Gi
 
 ---
